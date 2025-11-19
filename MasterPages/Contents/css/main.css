@@ -1,0 +1,47 @@
+﻿body {
+}
+section{}
+header {
+    background: #605b5b;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 1.85em;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+}
+nav {
+    height: 45px;
+    background: #605b5b;
+    margin:10px 0;
+    font-weight: 900;
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+}
+    nav ul{
+        margin: 0;
+        padding: 0;
+    }
+        nav ul li{
+            padding-left: 15px;
+            display:inline;
+        }
+            nav ul li a {
+                text-decoration: none;
+                color: #FFF;
+            }
+main{}
+    #form1{}
+        article{}
+        aside{}
+footer {
+    background: #605b5b;
+    color: #FFF;
+    font-weight: 900;
+    font-size: .85em;
+    text-align: right;
+    padding-right: 12px;
+    height: 45px;
+    line-height: 45px;
+}
