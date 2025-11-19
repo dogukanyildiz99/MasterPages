@@ -22,12 +22,11 @@
         <form id="form1" runat="server">
             <main>
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-                    <article></article>
-                    <aside></aside>
+                    
                 </asp:ContentPlaceHolder>
             </main>        
         </form>
-        <footer>&copy;Dogukan Y.</footer>
+        <footer class="clear">&copy;Dogukan Y.</footer>
     </section>
 </body>
 </html>
