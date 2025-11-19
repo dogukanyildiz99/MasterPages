@@ -9,11 +9,24 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-            </asp:ContentPlaceHolder>
-        </div>
-    </form>
+    <section>
+        <header>Web Project</header>
+        <nav>
+            <ul>
+                <li><a href="#">Page 1</a></li>
+                <li><a href="#">Page 2</a></li>
+                <li><a href="#">Page 3</a></li>
+            </ul>
+        </nav>
+        <form id="form1" runat="server">
+            <main>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    <article></article>
+                    <aside></aside>
+                </asp:ContentPlaceHolder>
+            </main>        
+        </form>
+        <footer>&copy;Dogukan Y.</footer>
+    </section>
 </body>
 </html>
