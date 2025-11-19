@@ -1,10 +1,11 @@
 ﻿body {
 }
-section{
-    width:95%;
+section {
+    width: 95%;
+    margin:auto;
 }
 header {
-    background: #605b5b;
+    background: #A1BC98;
     color: #FFF;
     font-weight: 900;
     font-size: 1.85em;
@@ -14,8 +15,8 @@ header {
 }
 nav {
     height: 45px;
-    background: #605b5b;
-    margin:10px 0;
+    background: #A1BC98;
+    margin: 10px 0;
     font-weight: 900;
     text-align: center;
     line-height: 45px;
@@ -42,11 +43,11 @@ main{}
         }
         aside{
             padding: 0 10px;
-            width:30%;
+            width:35%;
             float:left;
         }
 footer {
-    background: #605b5b;
+    background: #A1BC98;
     color: #FFF;
     font-weight: 900;
     font-size: .85em;

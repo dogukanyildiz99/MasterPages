@@ -78,6 +78,7 @@
     </Compile>
     <Compile Include="mySite.Master.cs">
       <DependentUpon>mySite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="mySite.Master.designer.cs">
       <DependentUpon>mySite.Master</DependentUpon>
